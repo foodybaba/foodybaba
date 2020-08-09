@@ -43,6 +43,9 @@
     opacity: 0.4;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 /* home section */
 #home {
     display: flex;
@@ -94,7 +97,7 @@
     justify-content: center;
 }
 
-.services-container .box {
+#services-container .box {
     border: 2px solid grey;
     display: flex;
     width: auto;
@@ -112,7 +115,7 @@
 }
 
 /* contact section */
-.contact::before {
+#contact::before {
     content: "";
     background: url(css/pic2.jpg) no-repeat center center/cover;
     position: absolute;
@@ -123,7 +126,7 @@
 }
 
 /* footer section */
-.footer {
+#footer {
     background-color: #141313;
     color: white;
     margin-top: 3rem;
